@@ -1,0 +1,87 @@
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #26c6da;
+  border-radius: 10px;
+  padding: 10px; /* добавляем немного отступов для красоты */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* добавляем тень для эффекта объемности */
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+.menu-container .trash:hover {
+  cursor: pointer; /* добавляем стандартный курсор при наведении */
+}
+.tasks-completed {
+  display: flex;
+  justify-content: center;
+}
+.todo-option {
+  font-size: 35px;
+  color: #ff6600;
+  cursor: pointer;
+}
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-info {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.container-info h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container-info h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container-info h4 {
+  font-size: 16px;
+}
+.todo-info {
+  text-align: center;
+}
+.todo-text-change {
+  font-size: 30px;
+  color: #2198a7;
+  cursor: pointer;
+}
+.change-text-buttons {
+  display: flex;
+}
+.change-text-buttons cancel-change,
+.change-text-buttons done-change {
+  cursor: pointer;
+}
+.btn {
+  margin-top: 20px;
+  text-transform: none;
+}
+.option-container {
+  margin-top: 30px;
+}
+
+.button-delete-modal {
+  margin-left: 20px;
+  background-color: #c53408;
+}
+.red:hover {
+  background-color: #dd4c20;
+}
+
+.button-complete-modal {
+  background-color: #348438;
+}
+.green:hover {
+  background-color: #37893c;
+}

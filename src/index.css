@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mt2 {
+  margin-top: 2rem;
+}
+
+.todoText {
+  color: black;
+}
+
+.todoText {
+  transition: text-decoration 0.3s;
+}
+
+.todo,
+.completed-todo {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+.container-nav a {
+  color: #424242;
+  font-size: 25px;
+  transition: font-size 0.3s ease;
+  text-decoration: none;
+}
+
+.completed-todo span {
+  opacity: 20%;
+}
+
+.container-nav a:hover {
+  font-size: 30px;
+}
