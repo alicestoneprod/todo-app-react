@@ -53,6 +53,7 @@ function InfoModalWindow({ isOpen, ok, cancel }) {
 
   function onChangeCancelClickHandler() {
     setChangeMode(false)
+    setNewTodoText(currentTodo.text)
   }
 
   function onCompleteClickHandler() {

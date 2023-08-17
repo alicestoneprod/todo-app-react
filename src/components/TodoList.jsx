@@ -45,7 +45,7 @@ function TodoList({ onDeleteClick, onDoneClick }) {
       {todos.map((el, index) => (
         <p className={el.isCompleted ? "completed-todo" : "todo"} key={el.id}>
           <label>
-            <span style={{ fontSize: "30px" }} className='todoText'>
+            <span className='todoText'>
               {index + 1}. {el.text}
             </span>
           </label>

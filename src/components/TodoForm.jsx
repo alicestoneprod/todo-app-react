@@ -62,7 +62,6 @@ function TodoForm({ onAddTodo }) {
             }}></input>
         </div>
 
-        <div></div>
         <button
           className={"btn btn-warning"}
           type='submit'
@@ -71,7 +70,7 @@ function TodoForm({ onAddTodo }) {
           Добавить
           <i class='material-icons right'>send</i>
         </button>
-        <label htmlFor='title' className='active'>
+        <label htmlFor='title' className='active add-todo-title'>
           Введите название дела
         </label>
       </div>

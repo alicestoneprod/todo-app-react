@@ -18,9 +18,6 @@ body {
 
 .todoText {
   color: black;
-}
-
-.todoText {
   transition: text-decoration 0.3s;
 }
 
@@ -49,4 +46,29 @@ body {
 
 .container-nav a:hover {
   font-size: 30px;
+}
+@media (max-width: 990px) {
+  .container-nav a {
+    font-size: 15px;
+    transition: none;
+  }
+  .container-nav a:hover {
+    font-size: 15px;
+  }
+  .todo {
+    font-size: 5px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 20px;
+  }
+  .todoText {
+    font-size: 25px;
+  }
+  .input-field > label {
+    font-size: 1.2rem;
+  }
 }
